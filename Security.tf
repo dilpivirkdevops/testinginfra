@@ -1,6 +1,6 @@
 resource "aws_security_group" "web_access" {
   name        = "sg_web_access"
-  description = "Very simple security group to allow HTTP & HTTPS access."
+  description = "Very security group to allow HTTP & HTTPS access."
 
   vpc_id = "${aws_vpc.vpc.id}"
 
